@@ -7,6 +7,7 @@
  * Time: 21:31
  */
 require_once('book.php');
+require_once('bookBig.php');
 
 class database {
     private $servername = "localhost";
@@ -38,12 +39,11 @@ class database {
 
     function GetBooks() {
         $list = array();
-        $sql = "SELECT name, year, author, genre FROM MyBooks";
+        $sql = "SELECT id, name, year, author, genre FROM MyBooks";
         $result = $this->conn->query($sql);
         while($row = $result->fetch_assoc()) {
-            //$name, $author, $year, $genre
-            //array_push($list, new book());
             $list[] = new book(
+                    $row["id"],
                     $row["name"],
                     $row["author"],
                     $row["year"],
@@ -51,5 +51,21 @@ class database {
                 );
         }
         return $list;
+    }
+
+    function GetBook($bookId) {
+        $sql = "SELECT id, name, year, author, genre, about FROM MyBooks WHERE id = ".$bookId;
+        $result = $this->conn->query($sql);
+        while($row = $result->fetch_assoc()) {
+            return new bookBig(
+                $row["id"],
+                $row["name"],
+                $row["author"],
+                $row["year"],
+                $row["genre"],
+                $row["about"]
+            );
+        }
+        return null;
     }
 }
