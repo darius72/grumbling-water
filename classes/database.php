@@ -6,6 +6,7 @@
  * Date: 2017.02.10
  * Time: 21:31
  */
+
 require_once('book.php');
 require_once('bookBig.php');
 
@@ -15,7 +16,6 @@ class database {
     private $password = "";
     private $dbname = "myDB";
     private $conn;
-
     private $connected;
 
     function __construct() {
@@ -27,7 +27,6 @@ class database {
             );
         if ($this->conn->connect_error) {
             $this->connected = false;
-            //die("Connection failed: " . $conn->connect_error . "<br>");
         } else {
             $this->connected = true;
         }

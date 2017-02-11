@@ -6,8 +6,8 @@
  * Date: 2017.02.11
  * Time: 00:14
  */
-class bookBig
-{
+
+class bookBig {
     private $id;
     private $name;
     private $author;
