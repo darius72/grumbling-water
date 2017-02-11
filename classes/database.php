@@ -15,6 +15,7 @@ class database {
     private $username = "root";
     private $password = "";
     private $dbname = "myDB";
+    private $dbtable = "mybooks";
     private $conn;
     private $connected;
 
@@ -36,9 +37,9 @@ class database {
         return $this->connected;
     }
 
-    function GetBooks() {
+    function GetBooks($order) {
         $list = array();
-        $sql = "SELECT id, name, year, author, genre FROM MyBooks";
+        $sql = "SELECT id, name, year, author, genre FROM " . $this->dbtable . " ORDER BY " . $order;
         $result = $this->conn->query($sql);
         while($row = $result->fetch_assoc()) {
             $list[] = new book(
@@ -53,7 +54,7 @@ class database {
     }
 
     function GetBook($bookId) {
-        $sql = "SELECT id, name, year, author, genre, about FROM MyBooks WHERE id = ".$bookId;
+        $sql = "SELECT id, name, year, author, genre, about FROM " . $this->dbtable . " WHERE id = ".$bookId;
         $result = $this->conn->query($sql);
         while($row = $result->fetch_assoc()) {
             return new bookBig(
@@ -64,6 +65,15 @@ class database {
                 $row["genre"],
                 $row["about"]
             );
+        }
+        return null;
+    }
+
+    function GetTableRowCount() {
+        $sql = "SHOW TABLE STATUS FROM " . $this->dbname . " LIKE '" . $this->dbtable . "'";
+        $result = $this->conn->query($sql);
+        while($row = $result->fetch_assoc()) {
+            return $row['Rows'];
         }
         return null;
     }

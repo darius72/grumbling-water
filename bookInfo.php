@@ -9,11 +9,12 @@
 require_once('classes/database.php');
 require_once('classes/book.php');
 
-if(isset($_GET['id'])) {
+if ((isset($_GET['id'])) && (ctype_digit($id = $_GET['id']))) {
     $db = new database();
     if ($db->Connected()) {
-        $book = $db->GetBook($_GET["id"]);
-        if (isset($book)) {
+        if ((1 <= $id) && ($id <= $db->GetTableRowCount())) {
+            $book = $db->GetBook($id);
+            echo "<a href='index.php'> Back to Book List </a>";
             echo "<table border='1'>
                     <tr><td> $book->name by $book->author </td></tr>
                     <tr><td> First published $book->year </td></tr>
