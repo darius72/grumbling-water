@@ -8,13 +8,13 @@
  */
 
 class book {
-    private $id;
-    private $name;
-    private $author;
-    private $year;
-    private $genre;
+    protected $id;
+    protected $name;
+    protected $author;
+    protected $year;
+    protected $genre;
 
-    function __construct($id, $name, $author, $year, $genre) {
+    public function __construct($id, $name, $author, $year, $genre) {
         $this->id = $id;
         $this->name = $name;
         $this->author = $author;
@@ -22,7 +22,7 @@ class book {
         $this->genre = $genre;
     }
 
-    function __get($property) {
+    public function __get($property) {
         if (property_exists($this, $property)) {
             return $this->$property;
         }

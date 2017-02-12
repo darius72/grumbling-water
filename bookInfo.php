@@ -6,13 +6,14 @@
  * Time: 23:19
  */
 
-require_once('classes/database.php');
+require_once ('classes/database.php');
+require_once ('classes/bookBig.php');
 
 if ((isset($_GET['id'])) && (ctype_digit($id = $_GET['id']))) {
     $db = new database();
     if ($db->Connected()) {
         if ((1 <= $id) && ($id <= $db->GetTableRowCount())) {
-            $book = $db->GetBook($id);
+            $oneBook = $db->GetBook($id);
             echo "<a href='index.php'> Back to Book List </a><br>";
             if (isset($_GET['key']) and isset($_GET['search'])) {
                 $key = $_GET['key'];
@@ -20,12 +21,12 @@ if ((isset($_GET['id'])) && (ctype_digit($id = $_GET['id']))) {
                 echo "<a href='bookSearch.php?key=$key&search=$search'> Back to Search results </a><br>";
             }
             echo "<table border='1'>
-                    <tr><td> $book->name";
-            if (!is_null($book->series)) echo " (".$book->series.")";
-            echo "</td><td> $book->original_name </td></tr>
-                    <tr><td> by $book->author </td><td> First published $book->year </td></tr>
-                    <tr><td> Genre: $book->genre </td><td> ISBN: $book->isbn </td></tr>
-                    <tr><td colspan='2'> $book->about </td></tr>
+                    <tr><td> $oneBook->name";
+            if (!is_null($oneBook->series)) echo " (".$oneBook->series.")";
+            echo "</td><td> $oneBook->original_name </td></tr>
+                    <tr><td> by $oneBook->author </td><td> First published $oneBook->year </td></tr>
+                    <tr><td> Genre: $oneBook->genre </td><td> ISBN: $oneBook->isbn </td></tr>
+                    <tr><td colspan='2'> $oneBook->about </td></tr>
                     </table>";
             //---------------
         } else {

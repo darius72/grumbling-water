@@ -40,8 +40,7 @@ class database {
     function GetBooks($order, $asc, $limit, $offset) {
         $list = array();
         $sql = "SELECT id, name, year, author, genre FROM $this->dbtable ORDER BY $order ";
-        $sql .= ($asc ? "ASC" : "DESC");
-        $sql .= " LIMIT $offset, $limit";
+        $sql .= ($asc ? "ASC" : "DESC") . " LIMIT $offset, $limit";
         $result = $this->conn->query($sql);
         if ($result) {
             while($row = $result->fetch_assoc()) {
@@ -80,7 +79,7 @@ class database {
     }
 
     function GetBook($bookId) {
-        $sql = "SELECT id, name, year, author, genre, about, original_name, series, isbn FROM $this->dbtable WHERE id = $bookId";
+        $sql = "SELECT id, name, year, author, genre, about, original_name, series, isbn FROM ".$this->dbtable." WHERE id = ".$bookId;
         $result = $this->conn->query($sql);
         if ($result) {
             while($row = $result->fetch_assoc()) {

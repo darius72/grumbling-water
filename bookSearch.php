@@ -42,7 +42,7 @@ if ($db->Connected()) {
         <th><a href='index.php'> Genre </a></th></tr>";
 
         foreach($books as $book) {
-            echo "<tr><td><a href='bookinfo.php?id=$book->id&key=$key&search=$search'> $book->name </a></td>
+            echo "<tr><td><a href='bookInfo.php?id=$book->id&key=$key&search=$search'> $book->name </a></td>
            <td>" . $book->author . "</td>
            <td>" . $book->year . "</td>
            <td>" . $book->genre . "</td></tr>";
