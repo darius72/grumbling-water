@@ -10,6 +10,7 @@
 /**
  *   Objekto 'databaze' klase
  * skirta darbui su duomenu bazeje esancia lentele.
+ * kintamieji 'username' ir 'password' yra paveldeti is klases 'credentials'.
  *
  *   Sioje uzduotyje naudojama konkreti duomenu baze, kuri turi vienintele lentele, saugancia knygu sarasa.
  *
@@ -21,22 +22,21 @@
  * year - Metai kuriais knyga buvo isleista pirma karta
  * genre - Zanras, kuriam knyga priskiria dauguma skaitytoju
  *   Papildoma informacija, rodoma tik atskirame knygos puslapyje:
- * about - Trumpas tekstas apie knyga, knygos veikejus ir jos autoriu (neprivalomas)
- * original_name - Pirmasis knygos pavadinimas
- * series - Serija, kuriai priklauso knyga (jeigu knyga priklauso serijai)
- * isbn - Desimties skaitmenu knygos ISBN numeris.
+ * about - Trumpas tekstas apie knyga, knygos veikejus ir jos autoriu (NULL or text)
+ * original_name - Pirmasis knygos pavadinimas (NULL or string)
+ * series - Serija, kuriai priklauso knyga (jeigu knyga priklauso serijai) (NULL or string)
+ * isbn - Desimties skaitmenu knygos ISBN numeris. (NULL or string)
  */
 
 require_once('book.php');
 require_once('bookBig.php');
+include ('credentials.php');
 
-class database {
+class database extends credentials {
     /**
      * Kintamieji saugantys duomenu bazes prisijungimo duomenis
      */
     private $servername = "localhost";
-    private $username = "id783838_root";
-    private $password = "5had0w";
     private $dbname = "id783838_mydb";
     private $dbtable = "mybooks";
 
@@ -49,6 +49,7 @@ class database {
      * ir issaugo informacija apie prisijungimo statusa kintamajame 'connected'.
      */
     function __construct() {
+        parent::__construct();
         $this->conn = new mysqli(
                 $this->servername,
                 $this->username,

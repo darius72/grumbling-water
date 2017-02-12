@@ -13,8 +13,8 @@
  *
  * Paieskos rezultatai rodomi treciame puslapyje ir jie yra nepuslapiuojami. Visi rezultatai rodomi vienoje vietoje.
  *
- * Sioje uzduotyje naudojamos duomenu bazes prisijungimo duomenys ir duomenu bazes struktura saugomi
- * objekto 'database' klaseje.
+ * Sioje uzduotyje naudojamos duomenu bazes prisijungimo duomenys saugomi klaseje 'credentials'.
+ * Duomenu bazes struktura saugomi objekto 'database' klaseje.
  */
 
 require_once ('classes/database.php');
@@ -24,11 +24,11 @@ require_once ('classes/pageDisplay.php');
 /**
  * Kintamieji puslapiuojamo knygu saraso duomenims saugoti ir perduoti
  */
-$orderby = "id";    // Kintamasis nurodo pagal kuri stulpeli yra rikiuojas knygu sarasas pirmajame puslapyje
-$asc = 1;           // Knygu saraso rikiavimo tvarka (1 = Ascending, 0 = Descending)
-$per_page = 10;     // Kintamasis nurodo kiek eiluciu vaizduojama viename knygu saraso puslapyje
-$page = 1;          // Knygu saraso esamo puslapio numeris
-$start= 0;          // Kintamasis nurodo esamo puslapio pirmos eilutes (pirmos knygos) eiliskumo numeri
+$orderby = "id";    // Pavadinimas stulpelio pagal kuri rikiuojas knygu sarasas
+$asc = 1;           // Saraso rikiavimo tvarka (1 = Ascending, 0 = Descending)
+$per_page = 10;     // Kiek eiluciu vaizduojama viename puslapyje
+$page = 1;          // Esamo puslapio numeris
+$start= 0;          // Esamo puslapio pirmos eilutes (pirmos knygos) eiliskumo numeris (reikalingas kaip sql limit 'offset')
 
 /**
  * Prisijungiame prie duomenu bazes su 'default' prisijungimo duomenimis.
