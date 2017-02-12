@@ -37,9 +37,11 @@ class database {
         return $this->connected;
     }
 
-    function GetBooks($order, $limit, $offset) {
+    function GetBooks($order, $asc, $limit, $offset) {
         $list = array();
-        $sql = "SELECT id, name, year, author, genre FROM $this->dbtable ORDER BY $order LIMIT $offset, $limit";
+        $sql = "SELECT id, name, year, author, genre FROM $this->dbtable ORDER BY $order ";
+        $sql .= ($asc ? "ASC" : "DESC");
+        $sql .= " LIMIT $offset, $limit";
         $result = $this->conn->query($sql);
         while($row = $result->fetch_assoc()) {
             $list[] = new book(
@@ -55,7 +57,7 @@ class database {
 
     function GetBooksSearch($key, $search) {
         $list = array();
-        $sql = "SELECT id, name, year, author, genre FROM $this->dbtable WHERE $key = '$search'";
+        $sql = "SELECT id, name, year, author, genre FROM $this->dbtable WHERE $key LIKE '$search'";
         $result = $this->conn->query($sql);
         while($row = $result->fetch_assoc()) {
             $list[] = new book(

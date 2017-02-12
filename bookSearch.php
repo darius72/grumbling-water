@@ -11,11 +11,15 @@ require_once('classes/book.php');
 
 $key;
 $search;
-if (isset($_POST['search'])){
+if (isset($_POST['search'])) {
     $search = $_POST['search'];
+} else {
+    header("Location: index.php");
 }
 if (isset($_POST['Key'])) {
     $key = $_POST['Key'];
+} else {
+    header("Location: index.php");
 }
 
 echo "<a href='index.php'> Back to Book List </a>";
