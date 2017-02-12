@@ -16,9 +16,11 @@ if ((isset($_GET['id'])) && (ctype_digit($id = $_GET['id']))) {
             $book = $db->GetBook($id);
             echo "<a href='index.php'> Back to Book List </a>";
             echo "<table border='1'>
-                    <tr><td> $book->name </td><td> original title </td></tr>
+                    <tr><td> $book->name";
+            if (!is_null($book->series)) echo " (".$book->series.")";
+            echo "</td><td> $book->original_name </td></tr>
                     <tr><td> by $book->author </td><td> First published $book->year </td></tr>
-                    <tr><td> Genre: $book->genre </td><td> ISBN </td></tr>
+                    <tr><td> Genre: $book->genre </td><td> ISBN: $book->isbn </td></tr>
                     <tr><td colspan='2'> $book->about </td></tr>
                     </table>";
             //---------------

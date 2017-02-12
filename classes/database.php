@@ -70,7 +70,7 @@ class database {
     }
 
     function GetBook($bookId) {
-        $sql = "SELECT id, name, year, author, genre, about FROM $this->dbtable WHERE id = $bookId";
+        $sql = "SELECT id, name, year, author, genre, about, original_name, series, isbn FROM $this->dbtable WHERE id = $bookId";
         $result = $this->conn->query($sql);
         while($row = $result->fetch_assoc()) {
             return new bookBig(
@@ -79,7 +79,10 @@ class database {
                 $row["author"],
                 $row["year"],
                 $row["genre"],
-                $row["about"]
+                $row["about"],
+                $row["original_name"],
+                $row["series"],
+                $row["isbn"]
             );
         }
         return null;
