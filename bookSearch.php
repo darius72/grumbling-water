@@ -7,20 +7,20 @@
  */
 
 require_once ('classes/database.php');
-//require_once ('classes/book.php');
+require_once ('classes/book.php');
 require_once ('classes/pageDisplay.php');
 
 $key;
 $search;
 
-(isset($_POST['search']) ? $search = pageDisplay::checkFormInput($_POST['search']) : header("Location: index.php"));
-if (isset($_POST['Key'])) {
-    switch ($_POST['Key']) {
+(isset($_GET['search']) ? $search = pageDisplay::checkFormInput($_GET['search']) : header("Location: index.php"));
+if (isset($_GET['key'])) {
+    switch ($_GET['key']) {
         case 'name':
         case 'author':
         case 'year':
         case 'genre':
-            $key = $_POST['Key'];
+            $key = $_GET['key'];
             break;
         default:
             header("Location: index.php");
@@ -42,7 +42,7 @@ if ($db->Connected()) {
         <th><a href='index.php'> Genre </a></th></tr>";
 
         foreach($books as $book) {
-            echo "<tr><td><a href='bookinfo.php?id=".$book->id."'>" . $book->name . "</a></td>
+            echo "<tr><td><a href='bookinfo.php?id=$book->id&key=$key&search=$search'> $book->name </a></td>
            <td>" . $book->author . "</td>
            <td>" . $book->year . "</td>
            <td>" . $book->genre . "</td></tr>";

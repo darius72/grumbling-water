@@ -7,10 +7,10 @@
  */
 
 require_once ('classes/database.php');
-//require_once ('classes/book.php');
+require_once ('classes/book.php');
 require_once ('classes/pageDisplay.php');
 
-$show_sides_count = 3;
+$show_sides_count = 2;
 
 $db = new database();
 
@@ -21,10 +21,10 @@ if ($db->Connected()) {
     $page = 1;
     $start= 0;
 
-    echo "<form action='bookSearch.php' method='post'>
+    echo "<form action='bookSearch.php' method='get'>
         <input type='submit' name='submit' value='Search' />
         <input type='text' name='search' />
-        <select name=\"Key\">
+        <select name=\"key\">
             <option value=\"name\">Name</option>
             <option value=\"author\">Author</option>
             <option value=\"year\">Year</option>

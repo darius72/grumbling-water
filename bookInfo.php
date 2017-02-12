@@ -13,7 +13,12 @@ if ((isset($_GET['id'])) && (ctype_digit($id = $_GET['id']))) {
     if ($db->Connected()) {
         if ((1 <= $id) && ($id <= $db->GetTableRowCount())) {
             $book = $db->GetBook($id);
-            echo "<a href='index.php'> Back to Book List </a>";
+            echo "<a href='index.php'> Back to Book List </a><br>";
+            if (isset($_GET['key']) and isset($_GET['search'])) {
+                $key = $_GET['key'];
+                $search = $_GET['search'];
+                echo "<a href='bookSearch.php?key=$key&search=$search'> Back to Search results </a><br>";
+            }
             echo "<table border='1'>
                     <tr><td> $book->name";
             if (!is_null($book->series)) echo " (".$book->series.")";
