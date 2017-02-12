@@ -6,6 +6,11 @@
  * Date: 2017.02.12
  * Time: 02:58
  */
+
+/**
+ * Class pageDisplay
+ * Pagalbine klase puslapiu isvaizdos generavimui
+ */
 class pageDisplay
 {
     /**
@@ -67,6 +72,13 @@ class pageDisplay
         $data = stripslashes($data);
         $data = htmlspecialchars($data);
         return $data;
+    }
+
+    static function copyrights() {
+        return "<br>Project Calm Water <br>
+    Created by Darius T at 2017.02.08 <br>
+    &copy 2017-" . date("Y") . "<br>
+    Source code:   <a href='https://github.com/darius72/grumbling-water'> Github</a>";
     }
 
 }

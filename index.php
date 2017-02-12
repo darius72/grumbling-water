@@ -87,3 +87,5 @@ if ($db->Connected()) {         // Jeigu pavyko prisijungi prie duomenu bazes
 } else {                        // Jeigu prisijungti prie duomenu bazes nepavyko.
     echo "No connection with DataBase";
 }
+
+echo pageDisplay::copyrights();

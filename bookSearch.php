@@ -62,3 +62,5 @@ if ($db->Connected()) {
 } else {
     echo "No connection with DataBase";
 }
+
+echo pageDisplay::copyrights();

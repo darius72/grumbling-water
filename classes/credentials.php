@@ -14,6 +14,6 @@ class credentials
     function __construct()
     {
         $this->username = "";      // Your database Username
-        $this->password = "";      // Your database Password
+        $this->password = "";             // Your database Password
     }
 }

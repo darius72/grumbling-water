@@ -12,6 +12,7 @@
 
 require_once ('classes/database.php');
 require_once ('classes/bookBig.php');
+require_once ('classes/pageDisplay.php');
 
 // Gauname knygos ID
 if ((isset($_GET['id'])) && (ctype_digit($id = $_GET['id']))) {
@@ -49,6 +50,6 @@ if ((isset($_GET['id'])) && (ctype_digit($id = $_GET['id']))) {
     header("Location: index.php");
 }
 
-
+echo pageDisplay::copyrights();
 
 
