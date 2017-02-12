@@ -21,4 +21,12 @@ class pageDisplay
         $eilute .= ( (abs(($page)*$per_page)+1) > $rowCount ? " " : "<a href='index.php?orderby=" . $orderby . "&asc=" . $asc . "&page=" . ($page+1) . "'> Next </a>" );
         return $eilute;
     }
+
+    static function checkFormInput($data) {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+    }
+
 }

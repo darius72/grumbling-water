@@ -7,7 +7,7 @@
  */
 
 require_once ('classes/database.php');
-require_once ('classes/book.php');
+//require_once ('classes/book.php');
 require_once ('classes/pageDisplay.php');
 
 $show_sides_count = 3;

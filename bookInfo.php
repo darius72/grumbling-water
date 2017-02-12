@@ -7,7 +7,6 @@
  */
 
 require_once('classes/database.php');
-require_once('classes/book.php');
 
 if ((isset($_GET['id'])) && (ctype_digit($id = $_GET['id']))) {
     $db = new database();

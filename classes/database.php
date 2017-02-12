@@ -43,51 +43,63 @@ class database {
         $sql .= ($asc ? "ASC" : "DESC");
         $sql .= " LIMIT $offset, $limit";
         $result = $this->conn->query($sql);
-        while($row = $result->fetch_assoc()) {
-            $list[] = new book(
+        if ($result) {
+            while($row = $result->fetch_assoc()) {
+                $list[] = new book(
                     $row["id"],
                     $row["name"],
                     $row["author"],
                     $row["year"],
                     $row["genre"]
                 );
+            }
+            return $list;
+        } else {
+            return null;
         }
-        return $list;
     }
 
     function GetBooksSearch($key, $search) {
         $list = array();
         $sql = "SELECT id, name, year, author, genre FROM $this->dbtable WHERE $key LIKE '$search'";
         $result = $this->conn->query($sql);
-        while($row = $result->fetch_assoc()) {
-            $list[] = new book(
-                $row["id"],
-                $row["name"],
-                $row["author"],
-                $row["year"],
-                $row["genre"]
-            );
+        if ($result) {
+            while($row = $result->fetch_assoc()) {
+                $list[] = new book(
+                    $row["id"],
+                    $row["name"],
+                    $row["author"],
+                    $row["year"],
+                    $row["genre"]
+                );
+            }
+            return $list;
+        } else {
+            return null;
         }
-        return $list;
     }
 
     function GetBook($bookId) {
         $sql = "SELECT id, name, year, author, genre, about, original_name, series, isbn FROM $this->dbtable WHERE id = $bookId";
         $result = $this->conn->query($sql);
-        while($row = $result->fetch_assoc()) {
-            return new bookBig(
-                $row["id"],
-                $row["name"],
-                $row["author"],
-                $row["year"],
-                $row["genre"],
-                $row["about"],
-                $row["original_name"],
-                $row["series"],
-                $row["isbn"]
-            );
+        if ($result) {
+            while($row = $result->fetch_assoc()) {
+                return new bookBig(
+                    $row["id"],
+                    $row["name"],
+                    $row["author"],
+                    $row["year"],
+                    $row["genre"],
+                    $row["about"],
+                    $row["original_name"],
+                    $row["series"],
+                    $row["isbn"]
+                );
+            }
+            return null;
+        } else {
+            return null;
         }
-        return null;
     }
 
     function GetTableRowCount() {
