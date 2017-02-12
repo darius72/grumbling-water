@@ -10,8 +10,6 @@ require_once ('classes/database.php');
 require_once ('classes/book.php');
 require_once ('classes/pageDisplay.php');
 
-$show_sides_count = 2;
-
 $db = new database();
 
 if ($db->Connected()) {
@@ -50,7 +48,7 @@ if ($db->Connected()) {
     if ((isset($_GET['page'])) && (ctype_digit($_GET['page']))) $page = $_GET['page'];
     $start = abs(($page-1)*$per_page);
 
-    echo pageDisplay::pageLink($page, $orderby, $asc, $show_sides_count, $per_page, $db->GetTableRowCount());
+    echo pageDisplay::pageLink($page, $orderby, $asc, $per_page, $db->GetTableRowCount());
 
     $books = $db->GetBooks($orderby, $asc, $per_page, $start);
     echo "<table border='1'><tr>";
