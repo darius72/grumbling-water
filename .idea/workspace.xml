@@ -8,6 +8,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/book.php" afterPath="$PROJECT_DIR$/classes/book.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/bookBig.php" afterPath="$PROJECT_DIR$/classes/bookBig.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/database.php" afterPath="$PROJECT_DIR$/classes/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/pageDisplay.php" afterPath="$PROJECT_DIR$/classes/pageDisplay.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,101 +35,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="-385">
+              <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
               <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-                <element signature="e#772#1047#0#PHP" expanded="false" />
-                <element signature="e#1052#1166#0#PHP" expanded="false" />
-                <marker date="1486910455706" expanded="true" signature="392:519" ph="..." />
-                <marker date="1486910455706" expanded="true" signature="392:763" ph="..." />
-                <marker date="1486910455706" expanded="true" signature="527:747" ph="..." />
-                <marker date="1486910455706" expanded="true" signature="1476:2009" ph="..." />
-                <marker date="1486910455706" expanded="true" signature="1480:1614" ph="..." />
-                <marker date="1486910455706" expanded="true" signature="1480:2009" ph="..." />
-                <marker date="1486910455706" expanded="true" signature="2061:2264" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bookInfo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookInfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1486915152917" expanded="true" signature="759:787" ph="..." />
-                <marker date="1486915152917" expanded="true" signature="759:790" ph="..." />
-                <marker date="1486915152917" expanded="true" signature="759:1236" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/book.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-              <folding>
-                <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-                <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-                <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-                <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-                <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-                <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-                <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-                <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-                <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-                <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-                <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-                <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-                <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bookSearch.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookSearch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1486910419708" expanded="true" signature="864:1068" ph="..." />
-                <marker date="1486910419708" expanded="true" signature="868:889" ph="..." />
-                <marker date="1486910419708" expanded="true" signature="868:1068" ph="..." />
-                <marker date="1486910419708" expanded="true" signature="1129:1343" ph="..." />
+                <element signature="e#1831#2106#0#PHP" expanded="false" />
+                <element signature="e#2111#2225#0#PHP" expanded="false" />
+                <marker date="1486928054889" expanded="true" signature="1398:1525" ph="..." />
+                <marker date="1486928054889" expanded="true" signature="1398:1769" ph="..." />
+                <marker date="1486928054889" expanded="true" signature="1533:1753" ph="..." />
+                <marker date="1486928054889" expanded="true" signature="2652:3185" ph="..." />
+                <marker date="1486928054889" expanded="true" signature="2656:2790" ph="..." />
+                <marker date="1486928054889" expanded="true" signature="2656:3185" ph="..." />
+                <marker date="1486928054889" expanded="true" signature="3237:3440" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,13 +68,13 @@
       <list>
         <option value="$PROJECT_DIR$/Task1.php" />
         <option value="$PROJECT_DIR$/Task2.php" />
-        <option value="$PROJECT_DIR$/classes/pageDisplay.php" />
-        <option value="$PROJECT_DIR$/bookSearch.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classes/book.php" />
-        <option value="$PROJECT_DIR$/bookInfo.php" />
         <option value="$PROJECT_DIR$/classes/bookBig.php" />
         <option value="$PROJECT_DIR$/classes/database.php" />
+        <option value="$PROJECT_DIR$/classes/pageDisplay.php" />
+        <option value="$PROJECT_DIR$/bookSearch.php" />
+        <option value="$PROJECT_DIR$/bookInfo.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -192,6 +110,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,8 +140,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,11 +243,13 @@
       <workItem from="1486913855274" duration="1385000" />
       <workItem from="1486915325696" duration="56000" />
       <workItem from="1486915633511" duration="719000" />
+      <workItem from="1486920846210" duration="7125000" />
+      <workItem from="1486928070667" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58950000" />
+    <option name="totallyTimeSpent" value="66083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -337,7 +257,6 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -346,6 +265,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -363,7 +283,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -381,36 +301,33 @@
         <state relative-caret-position="85">
           <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-            <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-            <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
+            <marker date="1486926168569" expanded="true" signature="2334:2375" ph="SELECT name,... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2390" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="2334:2412" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2413" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2419" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2457" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2465" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2466" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2467" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2473" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3238" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3252" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3258" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3259" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3263" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3264" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3269" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3278" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3279" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3939" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3940" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3958" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="3862:3980" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3985" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3986" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3997" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="4722:4739" ph="SELECT 1 FRO... MyBooks" />
           </folding>
         </state>
       </provider>
@@ -420,16 +337,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#772#1047#0#PHP" expanded="false" />
-            <element signature="e#1052#1166#0#PHP" expanded="false" />
-            <marker date="1486910455706" expanded="true" signature="392:519" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="392:763" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="527:747" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1476:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:1614" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="2061:2264" ph="..." />
+            <element signature="e#1831#2106#0#PHP" expanded="false" />
+            <element signature="e#2111#2225#0#PHP" expanded="false" />
+            <marker date="1486928054889" expanded="true" signature="1398:1525" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1398:1769" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1533:1753" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2652:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:2790" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="3237:3440" ph="..." />
           </folding>
         </state>
       </provider>
@@ -439,10 +355,9 @@
         <state relative-caret-position="102">
           <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="38" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1486915152917" expanded="true" signature="759:787" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:790" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:1236" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1160" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1163" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1609" ph="..." />
           </folding>
         </state>
       </provider>
@@ -468,36 +383,33 @@
         <state relative-caret-position="102">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-            <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-            <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
+            <marker date="1486926168569" expanded="true" signature="2334:2375" ph="SELECT name,... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2390" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="2334:2412" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2413" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2419" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2457" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2465" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2466" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2467" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2473" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3238" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3252" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3258" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3259" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3263" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3264" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3269" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3278" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3279" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3939" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3940" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3958" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="3862:3980" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3985" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3986" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3997" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="4722:4739" ph="SELECT 1 FRO... MyBooks" />
           </folding>
         </state>
       </provider>
@@ -507,16 +419,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#772#1047#0#PHP" expanded="false" />
-            <element signature="e#1052#1166#0#PHP" expanded="false" />
-            <marker date="1486910455706" expanded="true" signature="392:519" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="392:763" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="527:747" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1476:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:1614" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="2061:2264" ph="..." />
+            <element signature="e#1831#2106#0#PHP" expanded="false" />
+            <element signature="e#2111#2225#0#PHP" expanded="false" />
+            <marker date="1486928054889" expanded="true" signature="1398:1525" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1398:1769" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1533:1753" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2652:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:2790" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="3237:3440" ph="..." />
           </folding>
         </state>
       </provider>
@@ -526,10 +437,9 @@
         <state relative-caret-position="374">
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1486915152917" expanded="true" signature="759:787" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:790" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:1236" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1160" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1163" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1609" ph="..." />
           </folding>
         </state>
       </provider>
@@ -555,36 +465,33 @@
         <state relative-caret-position="510">
           <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
           <folding>
-            <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-            <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-            <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
+            <marker date="1486926168569" expanded="true" signature="2334:2375" ph="SELECT name,... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2390" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="2334:2412" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2413" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2419" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2457" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2465" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2466" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2467" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2473" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3238" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3252" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3258" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3259" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3263" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3264" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3269" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3278" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3279" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3939" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3940" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3958" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="3862:3980" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3985" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3986" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3997" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="4722:4739" ph="SELECT 1 FRO... MyBooks" />
           </folding>
         </state>
       </provider>
@@ -594,16 +501,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#772#1047#0#PHP" expanded="false" />
-            <element signature="e#1052#1166#0#PHP" expanded="false" />
-            <marker date="1486910455706" expanded="true" signature="392:519" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="392:763" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="527:747" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1476:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:1614" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="2061:2264" ph="..." />
+            <element signature="e#1831#2106#0#PHP" expanded="false" />
+            <element signature="e#2111#2225#0#PHP" expanded="false" />
+            <marker date="1486928054889" expanded="true" signature="1398:1525" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1398:1769" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1533:1753" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2652:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:2790" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="3237:3440" ph="..." />
           </folding>
         </state>
       </provider>
@@ -613,10 +519,9 @@
         <state relative-caret-position="374">
           <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1486915152917" expanded="true" signature="759:787" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:790" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:1236" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1160" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1163" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1609" ph="..." />
           </folding>
         </state>
       </provider>
@@ -642,36 +547,33 @@
         <state relative-caret-position="510">
           <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
           <folding>
-            <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-            <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-            <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
+            <marker date="1486926168569" expanded="true" signature="2334:2375" ph="SELECT name,... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2390" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="2334:2412" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2413" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2419" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2457" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2465" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2466" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2467" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2473" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3238" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3252" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3258" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3259" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3263" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3264" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3269" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3278" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3279" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3939" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3940" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3958" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="3862:3980" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3985" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3986" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3997" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="4722:4739" ph="SELECT 1 FRO... MyBooks" />
           </folding>
         </state>
       </provider>
@@ -681,16 +583,15 @@
         <state relative-caret-position="408">
           <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#772#1047#0#PHP" expanded="false" />
-            <element signature="e#1052#1166#0#PHP" expanded="false" />
-            <marker date="1486910455706" expanded="true" signature="392:519" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="392:763" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="527:747" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1476:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:1614" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="2061:2264" ph="..." />
+            <element signature="e#1831#2106#0#PHP" expanded="false" />
+            <element signature="e#2111#2225#0#PHP" expanded="false" />
+            <marker date="1486928054889" expanded="true" signature="1398:1525" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1398:1769" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1533:1753" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2652:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:2790" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="3237:3440" ph="..." />
           </folding>
         </state>
       </provider>
@@ -700,10 +601,9 @@
         <state relative-caret-position="459">
           <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1486915152917" expanded="true" signature="759:787" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:790" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:1236" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1160" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1163" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1609" ph="..." />
           </folding>
         </state>
       </provider>
@@ -729,36 +629,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-            <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-            <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
+            <marker date="1486926168569" expanded="true" signature="2334:2375" ph="SELECT name,... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2390" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="2334:2412" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2413" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2419" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2457" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2465" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2466" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2467" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2473" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3238" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3252" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3258" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3259" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3263" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3264" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3269" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3278" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3279" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3939" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3940" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3958" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="3862:3980" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3985" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3986" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3997" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="4722:4739" ph="SELECT 1 FRO... MyBooks" />
           </folding>
         </state>
       </provider>
@@ -768,16 +665,15 @@
         <state relative-caret-position="85">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#772#1047#0#PHP" expanded="false" />
-            <element signature="e#1052#1166#0#PHP" expanded="false" />
-            <marker date="1486910455706" expanded="true" signature="392:519" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="392:763" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="527:747" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1476:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:1614" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="2061:2264" ph="..." />
+            <element signature="e#1831#2106#0#PHP" expanded="false" />
+            <element signature="e#2111#2225#0#PHP" expanded="false" />
+            <marker date="1486928054889" expanded="true" signature="1398:1525" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1398:1769" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1533:1753" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2652:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:2790" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="3237:3440" ph="..." />
           </folding>
         </state>
       </provider>
@@ -787,10 +683,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1486915152917" expanded="true" signature="759:787" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:790" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:1236" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1160" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1163" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1609" ph="..." />
           </folding>
         </state>
       </provider>
@@ -816,36 +711,33 @@
         <state relative-caret-position="238">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-            <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-            <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
+            <marker date="1486926168569" expanded="true" signature="2334:2375" ph="SELECT name,... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2390" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="2334:2412" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2413" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2419" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2457" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2465" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2466" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2467" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2473" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3238" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3252" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3258" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3259" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3263" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3264" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3269" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3278" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3279" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3939" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3940" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3958" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="3862:3980" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3985" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3986" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3997" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="4722:4739" ph="SELECT 1 FRO... MyBooks" />
           </folding>
         </state>
       </provider>
@@ -855,16 +747,15 @@
         <state relative-caret-position="85">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#772#1047#0#PHP" expanded="false" />
-            <element signature="e#1052#1166#0#PHP" expanded="false" />
-            <marker date="1486910455706" expanded="true" signature="392:519" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="392:763" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="527:747" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1476:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:1614" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="2061:2264" ph="..." />
+            <element signature="e#1831#2106#0#PHP" expanded="false" />
+            <element signature="e#2111#2225#0#PHP" expanded="false" />
+            <marker date="1486928054889" expanded="true" signature="1398:1525" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1398:1769" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1533:1753" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2652:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:2790" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="3237:3440" ph="..." />
           </folding>
         </state>
       </provider>
@@ -874,10 +765,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1486915152917" expanded="true" signature="759:787" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:790" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:1236" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1160" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1163" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1609" ph="..." />
           </folding>
         </state>
       </provider>
@@ -903,36 +793,33 @@
         <state relative-caret-position="238">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-            <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-            <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
+            <marker date="1486926168569" expanded="true" signature="2334:2375" ph="SELECT name,... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2390" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="2334:2412" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2413" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2419" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2457" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2465" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2466" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2467" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2473" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3238" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3252" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3258" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3259" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3263" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3264" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3269" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3278" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3279" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3939" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3940" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3958" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="3862:3980" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3985" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3986" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3997" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="4722:4739" ph="SELECT 1 FRO... MyBooks" />
           </folding>
         </state>
       </provider>
@@ -942,16 +829,15 @@
         <state relative-caret-position="119">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#772#1047#0#PHP" expanded="false" />
-            <element signature="e#1052#1166#0#PHP" expanded="false" />
-            <marker date="1486910455706" expanded="true" signature="392:519" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="392:763" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="527:747" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1476:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:1614" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="2061:2264" ph="..." />
+            <element signature="e#1831#2106#0#PHP" expanded="false" />
+            <element signature="e#2111#2225#0#PHP" expanded="false" />
+            <marker date="1486928054889" expanded="true" signature="1398:1525" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1398:1769" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1533:1753" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2652:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:2790" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="3237:3440" ph="..." />
           </folding>
         </state>
       </provider>
@@ -961,10 +847,9 @@
         <state relative-caret-position="170">
           <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1486915152917" expanded="true" signature="759:787" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:790" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:1236" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1160" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1163" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1609" ph="..." />
           </folding>
         </state>
       </provider>
@@ -990,36 +875,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-            <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-            <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
+            <marker date="1486926168569" expanded="true" signature="2334:2375" ph="SELECT name,... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2390" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="2334:2412" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2413" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2419" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2457" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2465" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2466" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2467" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2473" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3238" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3252" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3258" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3259" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3263" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3264" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3269" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3278" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3279" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3939" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3940" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3958" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="3862:3980" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3985" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3986" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3997" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="4722:4739" ph="SELECT 1 FRO... MyBooks" />
           </folding>
         </state>
       </provider>
@@ -1031,111 +913,108 @@
     <entry file="file://$PROJECT_DIR$/Task1.php" />
     <entry file="file://$PROJECT_DIR$/Task2.php" />
     <entry file="file://$PROJECT_DIR$/mydb.sql" />
-    <entry file="file://$PROJECT_DIR$/classes/pageDisplay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1486910419708" expanded="true" signature="864:1068" ph="..." />
-            <marker date="1486910419708" expanded="true" signature="868:889" ph="..." />
-            <marker date="1486910419708" expanded="true" signature="868:1068" ph="..." />
-            <marker date="1486910419708" expanded="true" signature="1129:1343" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1486915152917" expanded="true" signature="759:787" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:790" ph="..." />
-            <marker date="1486915152917" expanded="true" signature="759:1236" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/bookBig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/book.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        <state relative-caret-position="51">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="n#Connected#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetBook#0;n#database#0;n#!!top" expanded="false" />
-            <element signature="n#GetTableRowCount#0;n#database#0;n#!!top" expanded="false" />
-            <marker date="1486916056707" expanded="true" signature="918:959" ph="SELECT name,... " />
-            <marker date="1486916056707" expanded="true" signature="918:974" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="918:983" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="918:984" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:990" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1043" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1051" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1052" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1053" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="918:1059" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1632" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1646" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1652" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1653" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1657" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1658" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1663" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1672" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="1590:1673" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2242" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2243" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2259" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
-            <marker date="1486916056707" expanded="true" signature="2165:2267" ph="SELECT id, n... ${$this-&gt;dbtable}" />
-            <marker date="1486916056707" expanded="true" signature="2165:2272" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2273" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2165:2282" ph="SELECT id, n... " />
-            <marker date="1486916056707" expanded="true" signature="2923:2940" ph="SELECT 1 FRO... MyBooks" />
+            <marker date="1486926168569" expanded="true" signature="2334:2375" ph="SELECT name,... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2390" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="2334:2412" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="2334:2413" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2419" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2457" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2465" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2466" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2467" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="2334:2473" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3238" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3252" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3258" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3259" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3263" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3264" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3269" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3278" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3196:3279" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3939" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3940" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3958" ph="SELECT id, n... ${$this-&gt;dbtable} ." />
+            <marker date="1486926168569" expanded="true" signature="3862:3980" ph="SELECT id, n... ${$this-&gt;dbtable}" />
+            <marker date="1486926168569" expanded="true" signature="3862:3985" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3986" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="3862:3997" ph="SELECT id, n... " />
+            <marker date="1486926168569" expanded="true" signature="4722:4739" ph="SELECT 1 FRO... MyBooks" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/pageDisplay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding>
+            <element signature="e#7#89#0#PHP" expanded="false" />
+            <element signature="n#pageLink#0;n#pageDisplay#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <marker date="1486928030991" expanded="true" signature="1234:1438" ph="..." />
+            <marker date="1486928030991" expanded="true" signature="1238:1259" ph="..." />
+            <marker date="1486928030991" expanded="true" signature="1238:1438" ph="..." />
+            <marker date="1486928030991" expanded="true" signature="1498:1712" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1486928031001" expanded="true" signature="1132:1160" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1163" ph="..." />
+            <marker date="1486928031001" expanded="true" signature="1132:1609" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="-385">
+          <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#772#1047#0#PHP" expanded="false" />
-            <element signature="e#1052#1166#0#PHP" expanded="false" />
-            <marker date="1486910455706" expanded="true" signature="392:519" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="392:763" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="527:747" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1476:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:1614" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="1480:2009" ph="..." />
-            <marker date="1486910455706" expanded="true" signature="2061:2264" ph="..." />
+            <element signature="e#1831#2106#0#PHP" expanded="false" />
+            <element signature="e#2111#2225#0#PHP" expanded="false" />
+            <marker date="1486928054889" expanded="true" signature="1398:1525" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1398:1769" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="1533:1753" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2652:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:2790" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="2656:3185" ph="..." />
+            <marker date="1486928054889" expanded="true" signature="3237:3440" ph="..." />
           </folding>
         </state>
       </provider>

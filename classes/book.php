@@ -7,7 +7,16 @@
  * Time: 21:56
  */
 
+/**
+ * Objekto 'book' klase
+ * skirta saugoti pradinius duomenis apie viena knyga
+ */
+
 class book {
+
+    /**
+     * Kintamuju pavadinimai parinkti pagal duomenu bazes lenteles stulpeliu pavadinimus.
+     */
     protected $id;
     protected $name;
     protected $author;

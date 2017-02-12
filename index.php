@@ -6,19 +6,36 @@
  * Time: 21:30
  */
 
+/**
+ * Cia yra pirmasis uzduoties puslapis su knygu sarasu.
+ *
+ * Antrame puslapyje rodoma detali informacija apie viena knyga.
+ *
+ * Paieskos rezultatai rodomi treciame puslapyje ir jie yra nepuslapiuojami. Visi rezultatai rodomi vienoje vietoje.
+ *
+ * Sioje uzduotyje naudojamos duomenu bazes prisijungimo duomenys ir duomenu bazes struktura saugomi
+ * objekto 'database' klaseje.
+ */
+
 require_once ('classes/database.php');
 require_once ('classes/book.php');
 require_once ('classes/pageDisplay.php');
 
+/**
+ * Kintamieji puslapiuojamo knygu saraso duomenims saugoti ir perduoti
+ */
+$orderby = "id";    // Kintamasis nurodo pagal kuri stulpeli yra rikiuojas knygu sarasas pirmajame puslapyje
+$asc = 1;           // Knygu saraso rikiavimo tvarka (1 = Ascending, 0 = Descending)
+$per_page = 10;     // Kintamasis nurodo kiek eiluciu vaizduojama viename knygu saraso puslapyje
+$page = 1;          // Knygu saraso esamo puslapio numeris
+$start= 0;          // Kintamasis nurodo esamo puslapio pirmos eilutes (pirmos knygos) eiliskumo numeri
+
+/**
+ * Prisijungiame prie duomenu bazes su 'default' prisijungimo duomenimis.
+ */
 $db = new database();
-
-if ($db->Connected()) {
-    $orderby = "id";
-    $asc = 1;
-    $per_page = 10;
-    $page = 1;
-    $start= 0;
-
+if ($db->Connected()) {         // Jeigu pavyko prisijungi prie duomenu bazes
+    // Sukuriame Paieskos laukeli.
     echo "<form action='bookSearch.php' method='get'>
         <input type='submit' name='submit' value='Search' />
         <input type='text' name='search' />
@@ -30,6 +47,7 @@ if ($db->Connected()) {
         </select>
         </form>";
 
+    // Apdorojame knygu saraso puslapiu informacija.
     if (isset($_GET['orderby'])) {
         switch($_GET['orderby']) {
             case 'id':
@@ -50,7 +68,10 @@ if ($db->Connected()) {
 
     echo pageDisplay::pageLink($page, $orderby, $asc, $per_page, $db->GetTableRowCount());
 
+    // Is duomenu bazes atsisiunciame knygu sarasa.
     $books = $db->GetBooks($orderby, $asc, $per_page, $start);
+
+    // Sukuriame lentele knygu saraso vaizdavimui.
     echo "<table border='1'><tr>";
     echo "<th><a href='index.php?orderby=name&asc=" . ($orderby == 'name' ? !$asc : '1') . "&page=" . $page . "'> Name </a></th>";
     echo "<th><a href='index.php?orderby=author&asc=" . ($orderby == 'author' ? !$asc : '1') . "&page=" . $page. "'> Author </a></th>
@@ -63,6 +84,6 @@ if ($db->Connected()) {
             <td>" . $book->genre . "</td></tr>";
     }
     echo '</table>';
-} else {
+} else {                        // Jeigu prisijungti prie duomenu bazes nepavyko.
     echo "No connection with DataBase";
 }

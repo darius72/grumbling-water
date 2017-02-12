@@ -7,18 +7,47 @@
  * Time: 21:31
  */
 
+/**
+ *   Objekto 'databaze' klase
+ * skirta darbui su duomenu bazeje esancia lentele.
+ *
+ *   Sioje uzduotyje naudojama konkreti duomenu baze, kuri turi vienintele lentele, saugancia knygu sarasa.
+ *
+ *     Lenteles stulpeliai yra:
+ *   Knygu sarase rodoma informacija:
+ * id - Unikalus knygos identifikacinis numeris
+ * name - knygos pavadinimas
+ * author - knygos autorius
+ * year - Metai kuriais knyga buvo isleista pirma karta
+ * genre - Zanras, kuriam knyga priskiria dauguma skaitytoju
+ *   Papildoma informacija, rodoma tik atskirame knygos puslapyje:
+ * about - Trumpas tekstas apie knyga, knygos veikejus ir jos autoriu (neprivalomas)
+ * original_name - Pirmasis knygos pavadinimas
+ * series - Serija, kuriai priklauso knyga (jeigu knyga priklauso serijai)
+ * isbn - Desimties skaitmenu knygos ISBN numeris.
+ */
+
 require_once('book.php');
 require_once('bookBig.php');
 
 class database {
+    /**
+     * Kintamieji saugantys duomenu bazes prisijungimo duomenis
+     */
     private $servername = "localhost";
     private $username = "id783838_root";
     private $password = "5had0w";
     private $dbname = "id783838_mydb";
     private $dbtable = "mybooks";
-    private $conn;
-    private $connected;
 
+    private $conn;          // rysio su duomenu baze kintamasis
+    private $connected;     // kintamasis saugantis rysio statusa
+
+    /**
+     * Duomenu bazes konstruktorius
+     * Iskvietimo metu prisijungia prie duomenu bazes
+     * ir issaugo informacija apie prisijungimo statusa kintamajame 'connected'.
+     */
     function __construct() {
         $this->conn = new mysqli(
                 $this->servername,
@@ -33,14 +62,21 @@ class database {
         }
     }
 
+    /**
+     * Funkcija skirta perduoti informacija apie prisijungimo prie duomenu bazes statusa
+     */
     function Connected() {
         return $this->connected;
     }
 
+    /**
+     * Funkcija grazina visa knygu sarasa is duomenu bazes
+     * skirta suformuoti knygu sarasui pirmajame puslapyje
+     */
     function GetBooks($order, $asc, $limit, $offset) {
         $list = array();
-        $sql = "SELECT id, name, year, author, genre FROM $this->dbtable ORDER BY $order ";
-        $sql .= ($asc ? "ASC" : "DESC") . " LIMIT $offset, $limit";
+        $sql = "SELECT id, name, year, author, genre FROM $this->dbtable 
+            ORDER BY $order " . ($asc ? "ASC" : "DESC") . " LIMIT $offset, $limit";
         $result = $this->conn->query($sql);
         if ($result) {
             while($row = $result->fetch_assoc()) {
@@ -58,6 +94,11 @@ class database {
         }
     }
 
+    /**
+     * Funkcija grazina knygu sarasa pagal nurodytus duomenis
+     * search - ieskoma fraze
+     * key - stulpelis, kuriame atliekama paieska (book name, book author, year...)
+     */
     function GetBooksSearch($key, $search) {
         $list = array();
         $sql = "SELECT id, name, year, author, genre FROM $this->dbtable WHERE $key LIKE '$search'";
@@ -78,8 +119,12 @@ class database {
         }
     }
 
+    /**
+     * Funkcija grazina visa informacija apie viena knyga pagal knygos Id.
+     */
     function GetBook($bookId) {
-        $sql = "SELECT id, name, year, author, genre, about, original_name, series, isbn FROM ".$this->dbtable." WHERE id = ".$bookId;
+        $sql = "SELECT id, name, year, author, genre, about, original_name, series, isbn FROM " . $this->dbtable
+            . " WHERE id = " . $bookId;
         $result = $this->conn->query($sql);
         if ($result) {
             while($row = $result->fetch_assoc()) {
@@ -101,13 +146,19 @@ class database {
         }
     }
 
+    /**
+     * Funkcija skirta gauti knygu, esanciu knygu sarase, skaiciui.
+     */
     function GetTableRowCount() {
         $sql = "SHOW TABLE STATUS FROM $this->dbname LIKE '$this->dbtable'";
         $result = $this->conn->query($sql);
-        while($row = $result->fetch_assoc()) {
-            return $row['Rows'];
+        if ($result) {
+            while($row = $result->fetch_assoc()) {
+                return $row['Rows'];
+            }
+        } else {
+            return null;
         }
-        return null;
     }
 
 }

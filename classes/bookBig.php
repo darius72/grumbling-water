@@ -7,6 +7,11 @@
  * Time: 00:14
  */
 
+/**
+ * Objekto 'bigBook' klase
+ * skirta saugoti visa informacija apie konkrecia knyga
+ */
+
 require_once ('classes/book.php');
 
 class bookBig extends book  {
